@@ -1,0 +1,156 @@
+.main-sidebar a .pro-pic{
+    min-height: 45px!important;
+    max-width: 45px!important;
+    padding-bottom: 2px!important;
+}
+.images-sections .main-pic {
+  border: 1px solid #000;
+   padding: 5px !important;margin-bottom: 20px; margin-right: 20px;position: relative;
+}
+.images-sections .img-profile{
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+}
+.images-sections .form-group {
+    display: flex;
+    justify-content: center;flex-wrap: wrap;
+}
+.venue-sec .img-profile {
+    margin-right: 15px;
+}
+.images-sections .main-pic:nth-child(4n) {
+    margin-right: 0;
+}
+.images-sections .main-pic:last-child{
+    margin-right: 0 !important;
+}
+.images-sections img.cross-section {
+  position: absolute;top: -10px;right: -10px;
+  background: #000;width: 22px;height: 22px;padding: 4px;border-radius: 50%;}
+
+  a.btn-xs.myPopover {
+    position: absolute;
+}
+table.table thead th a {
+    color:#000;
+}
+table.table .tableLink i.fas {
+    font-size: 30px;
+    text-align: center;
+}
+.toggle.btn-primary {
+    border-color: #ddd;
+}
+label.btn.btn-default.toggle-off,
+label.btn.btn-default.toggle-off:hover {
+    background-color: #ef3043bf;
+    border-color: #ef3043bf;
+    color: #fff;
+}
+label.btn.btn-primary.toggle-on,
+label.btn.btn-primary.toggle-on:hover {
+    color: #fff;
+    background-color: #458e55;
+    border-color: #458e55;
+}
+
+.alert {  
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.alert a{  
+    text-decoration: none; 
+}
+.alert .close, .alert .mailbox-attachment-close {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* Dashboard analyser */
+.card-body .fc {
+    margin-top: 5px;
+    border: 1px solid #80808024;
+}
+
+/* warning button color change */
+.bg-gradient-warning {
+    background: #ffc108 linear-gradient(180deg,#d8a200bf,#d8a714) repeat-x!important;
+    color: #fffffff0;
+}
+.error
+{
+    color: #da1313;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    color: #fff !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice > span{
+    color: #fff !important;
+}
+
+span.inputerror{
+    color:#e90d0f;
+}
+p.inputerror{
+    background: #f72318;
+    border-radius: 5px;
+    padding: 5px 0px 5px 10px;
+    color: #fff;
+}
+p.inputsuccess {
+    background: #159615e0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 0px 5px 10px;
+}
+.grandTotalTd{ 
+    border-bottom: 2px solid #08a214;
+    font-weight: 1000;
+    color: #08a214;
+    font-size: x-large;
+    text-align: center
+}
+.borderedtd{ 
+    border-bottom: 2px solid #08a214; 
+    font-size: x-large;
+    text-align: center
+}
+.miletd{  
+    font-size: x-large;
+    text-align: center
+}
+
+/* 11-08-2021 */
+
+.bg-info{
+    background-color :#d5dbdc !important;
+}
+.bg-gradient-success {
+    background: #fff !important;
+    color: #181717 !important;
+}
+.card.bg-gradient-success .bootstrap-datetimepicker-widget table td.active, .card.bg-gradient-success .bootstrap-datetimepicker-widget table td.active:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.active, .card.bg-success .bootstrap-datetimepicker-widget table td.active:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.todo-list>li .tools {
+ display:block;
+}
+.card.bg-gradient-success .bootstrap-datetimepicker-widget table td.day:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table td.hour:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table td.minute:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table td.second:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table thead tr:first-child th:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.day:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.hour:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.minute:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.second:hover, .card.bg-success .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* [class*=sidebar-dark-] {
+    background-color: #f8f9fa;
+}
+[class*=sidebar-dark-] .sidebar a {
+    color: #1f2d3d;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #56a3e0;
+    color: #fff;
+} */
